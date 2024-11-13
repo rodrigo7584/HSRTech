@@ -4,10 +4,10 @@
 .main {
   min-height: 100vh;
   padding: 25px 0px;
-  background-image: url('../img/circle.svg'),url('../img/circle.svg'),url('../img/circle.svg');
+  background-image: url('../img/circle.svg'), url('../img/circle.svg'), url('../img/circle.svg');
   background-repeat: no-repeat;
   background-size: 112px, 166px, 246px;
-  background-position: 5% center, 40% -83px, 70% calc(100% + 180px) ;
+  background-position: 5% center, 40% -83px, 70% calc(100% + 180px);
 }
 .col-logo {
   display: flex;
@@ -15,7 +15,7 @@
   padding: 0px 80px;
   margin-bottom: 50px;
 }
-.logo{
+.logo {
   width: 185px;
 }
 .content {
@@ -47,6 +47,7 @@
 }
 .form {
   width: calc(100% - 60px);
+  align-self: center;
 }
 .label {
   font-family: 'Inter', sans-serif;
@@ -95,9 +96,9 @@
   align-items: center;
   position: relative;
 }
-.notificacao{
+.notificacao {
   position: absolute;
-  font-family: 'Inter', sans-serif ;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.2;
@@ -115,24 +116,24 @@
   -moz-box-shadow: 0px 4px 4px 0px #00000040;
   box-shadow: 0px 4px 4px 0px #00000040;
 }
-.notificacao::before{
+.notificacao::before {
   width: 20px;
   height: 20px;
 }
-.notificacao-positiva::before{
+.notificacao-positiva::before {
   content: url('../img/check.svg');
 }
-.notificacao-negativa::before{
+.notificacao-negativa::before {
   content: url('../img/not.svg');
 }
-.notificacao-positiva{
-  border-color: #48E36A;
-  background-color: #2EC74F;
+.notificacao-positiva {
+  border-color: #48e36a;
+  background-color: #2ec74f;
   margin-top: -100px;
 }
-.notificacao-negativa{
-  border-color: #FF7979;
-  background-color: #FE3C3C;
+.notificacao-negativa {
+  border-color: #ff7979;
+  background-color: #fe3c3c;
   margin-top: 10px;
 }
 .imagem-projeto {
@@ -141,36 +142,40 @@
   object-fit: contain;
 }
 @media (max-width: 1400px) {
-  .menu{
-    padding: 50px ;
+  .col-logo {
+    margin-bottom: 20px;
+    padding: 0px 40px;
+  }
+  .logo {
+    width: 165px;
+  }
+  .menu {
+    padding: 30px;
+  }
+  .title {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .select {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .notificacao {
+    font-size: 13px;
   }
 }
 @media (max-width: 1200px) {
-  .menu{
-    padding: 50px ;
-  }
-  .title{
-    font-size: 36px;
-    margin-bottom: 40px;
-  }
-  
 }
 @media (max-width: 992px) {
   .col-logo {
-    padding: 0px 40px;
+    padding: 0px 20px;
   }
-  .title {
-    font-size: 30px;
-  }
-  .form{
+  .form {
     width: 100%;
-  }
-  .menu {
-    padding: 35px;
   }
 }
 @media (max-width: 768px) {
-  .main{
+  .main {
     background-position: 5% center, 80% -83px, 70% calc(100% + 180px);
   }
   .content {
@@ -182,10 +187,10 @@
   .col-logo {
     margin-bottom: 20px;
   }
-  .logo{
+  .logo {
     width: 155px;
   }
-  .title{
+  .title {
     text-align: left;
   }
- }
+}
