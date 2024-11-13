@@ -143,25 +143,28 @@
 }
 @media (max-width: 1400px) {
   .col-logo {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 0px 40px;
   }
   .logo {
-    width: 165px;
+    width: 135px;
   }
   .menu {
-    padding: 30px;
+    padding: 20px;
   }
   .title {
-    margin-bottom: 30px;
-    font-size: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .label {
+    font-size: 10px;
   }
   .select {
     padding: 5px;
-    font-size: 14px;
+    font-size: 13px;
   }
   .notificacao {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 @media (max-width: 1200px) {
